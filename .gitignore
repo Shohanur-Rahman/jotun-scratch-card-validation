@@ -4,3 +4,11 @@
 /*.suo
 /*.user
 /_ReSharper.*
+/Jotun.ScratchCard.WebApp/obj
+/Jotun.ScratchCard.WebApp/*.user
+/Jotun.ScratchCard.Common/bin
+/Jotun.ScratchCard.Common/obj
+/Jotun.ScratchCard.Entities/bin
+/Jotun.ScratchCard.Entities/obj
+/Jotun.ScratchCard.Repositories/bin
+/Jotun.ScratchCard.Repositories/obj
