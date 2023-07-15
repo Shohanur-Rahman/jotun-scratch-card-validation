@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Jotun.ScratchCard.WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Jotun.ScratchCard.WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\css\\app.css",
+      "PackagePath": "staticwebassets\\assets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\css\\bootstrap-extended.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-extended.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\css\\dark-theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dark-theme.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\css\\header-colors.css",
+      "PackagePath": "staticwebassets\\assets\\css\\header-colors.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\css\\icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icons.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\css\\pace.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pace.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\css\\semi-dark.css",
+      "PackagePath": "staticwebassets\\assets\\css\\semi-dark.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\LineIcons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.eot"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\LineIcons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.svg"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\LineIcons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.ttf"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\LineIcons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.woff"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\LineIcons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.woff2"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\fonts\\boxiconsd41d.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxiconsd41d.svg"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-1.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-10.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-11.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-15.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-16.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-16.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-2.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-3.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-4.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-5.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-6.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-7.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-8.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\avatars\\avatar-9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar-9.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\bg-themes\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\1.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\bg-themes\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\2.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\bg-themes\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\3.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\bg-themes\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\4.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\bg-themes\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\5.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\bg-themes\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\6.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\bg-themes\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\7.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\bg-themes\\8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-themes\\8.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\errors-images\\505-error.png",
+      "PackagePath": "staticwebassets\\assets\\images\\errors-images\\505-error.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon-32x32.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\jotun.png",
+      "PackagePath": "staticwebassets\\assets\\images\\jotun.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\images\\logo-img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-img.png"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\js\\index3.js",
+      "PackagePath": "staticwebassets\\assets\\js\\index3.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\js\\pace.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pace.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\assets\\js\\widgets.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\plugins\\metismenu\\css\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\metismenu\\css\\metisMenu.min.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\plugins\\metismenu\\js\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\metismenu\\js\\metisMenu.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\plugins\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\plugins\\perfect-scrollbar\\js\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\perfect-scrollbar\\js\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\plugins\\simplebar\\css\\simplebar.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\simplebar\\css\\simplebar.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\assets\\plugins\\simplebar\\js\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\simplebar\\js\\simplebar.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\kendo\\kendo.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\kendo\\kendo.all.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\kendo\\kendo.culture.bn-BD.min.js",
+      "PackagePath": "staticwebassets\\lib\\kendo\\kendo.culture.bn-BD.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\kendo\\kendo.culture.de-DE.min.js",
+      "PackagePath": "staticwebassets\\lib\\kendo\\kendo.culture.de-DE.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\kendo\\kendo.culture.en-GB.min.js",
+      "PackagePath": "staticwebassets\\lib\\kendo\\kendo.culture.en-GB.min.js"
+    },
+    {
+      "Id": "E:\\DotNEt\\Jotun.ScratchCard.App\\Jotun.ScratchCard.WebApp\\wwwroot\\lib\\kendo\\kendo.default-purple.min.css",
+      "PackagePath": "staticwebassets\\lib\\kendo\\kendo.default-purple.min.css"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Jotun.ScratchCard.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Jotun.ScratchCard.WebApp.props",
+      "PackagePath": "build\\Jotun.ScratchCard.WebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Jotun.ScratchCard.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\Jotun.ScratchCard.WebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Jotun.ScratchCard.WebApp.props",
+      "PackagePath": "buildTransitive\\Jotun.ScratchCard.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

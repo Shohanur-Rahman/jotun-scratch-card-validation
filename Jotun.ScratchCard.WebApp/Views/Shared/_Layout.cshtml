@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="color-sidebar sidebarcolor3">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Scratch Card Payment Verification System</title>
+	<link href="~/assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" asp-append-version="true" />
+	<link href="~/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" asp-append-version="true" />
+	<link href="~/assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" asp-append-version="true" />
+    <!-- Bootstrap CSS -->
+	<link href="~/assets/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true">
+	<link href="~/assets/css/bootstrap-extended.css" rel="stylesheet" asp-append-version="true">
+	<link href="~/lib/kendo/kendo.default-purple.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+	<link href="~/assets/css/app.css" rel="stylesheet" asp-append-version="true">
+	<link href="~/assets/css/icons.css" rel="stylesheet" asp-append-version="true">
+    <!-- Theme Style CSS -->
+	<link rel="stylesheet" href="~/assets/css/dark-theme.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/assets/css/semi-dark.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/assets/css/header-colors.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Jotun.ScratchCard.WebApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+	<div class="wrapper">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper" data-simplebar="true">
+			<div class="sidebar-header">
+				<div>
+					<img src="~/assets/images/logo-icon.png" class="logo-icon" alt="logo icon" asp-append-version="true">
+				</div>
+				<div>
+					<h4 class="logo-text">Jotun</h4>
+				</div>
+				<div class="toggle-icon ms-auto">
+					<i class='bx bx-first-page'></i>
+				</div>
+			</div>
+			<!--navigation-->
+			<ul class="metismenu" id="menu">
+				<li>
+					<a asp-controller="Home" asp-action="" asp-area="">
+						<div class="parent-icon">
+							<i class='bx bx-home'></i>
+						</div>
+						<div class="menu-title">Dashboard</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon">
+							<i class='bx bx-gift'></i>
+						</div>
+						<div class="menu-title">Mastersheet</div>
+					</a>
+					<ul>
+						<li>
+							<a asp-area="Mastersheet" asp-action="" asp-controller="Messages"><i class="bx bx-right-arrow-alt"></i>Paid SMS</a>
+						</li>
+						<li>
+							<a asp-area="Mastersheet" asp-action="Pending" asp-controller="Messages"><i class="bx bx-right-arrow-alt"></i>Pending SMS</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon">
+							<i class='bx bx-spa'></i>
+						</div>
+						<div class="menu-title">Setup</div>
+					</a>
+					<ul>
+						<li>
+							<a asp-area="Setup" asp-action="" asp-controller="Cards"><i class="bx bx-right-arrow-alt"></i>Cards</a>
+						</li>
+						<li>
+							<a asp-area="Setup" asp-action="" asp-controller="Dealers"><i class="bx bx-right-arrow-alt"></i>Dealers</a>
+						</li>
+						<li>
+							<a asp-area="Setup" asp-action="" asp-controller="Painters"><i class="bx bx-right-arrow-alt"></i>Painters</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon">
+							<i class='bx bx-file'></i>
+						</div>
+						<div class="menu-title">Reports</div>
+					</a>
+					<ul>
+						<li>
+							<a asp-area="Mastersheet" asp-action="" asp-controller="Reports"><i class="bx bx-right-arrow-alt"></i>Daily Report</a>
+						</li>
+						<li>
+							<a asp-area="Mastersheet" asp-action="DateToDate" asp-controller="Reports"><i class="bx bx-right-arrow-alt"></i>Date to Date Report</a>
+						</li>
+						<li>
+							<a asp-area="Mastersheet" asp-action="Dealer" asp-controller="Reports"><i class="bx bx-right-arrow-alt"></i>Dealer Report</a>
+						</li>
+						<li>
+							<a asp-area="Mastersheet" asp-action="Painter" asp-controller="Reports"><i class="bx bx-right-arrow-alt"></i>Painter Report</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a asp-controller="Users" asp-action="" asp-area="">
+						<div class="parent-icon">
+							<i class='bx bx-lock-open-alt'></i>
+						</div>
+						<div class="menu-title">Users</div>
+					</a>
+				</li>
+				<li>
+					<a asp-controller="Account" asp-action="" asp-area="">
+						<div class="parent-icon">
+							<i class='bx bx-user-pin'></i>
+						</div>
+						<div class="menu-title">Sign In Page</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu">
+						<i class='bx bx-menu'></i>
+					</div>
+					<div class="user-box dropdown ms-auto">
+						<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="~/assets/images/avatars/avatar-16.png" class="user-img" alt="user avatar">
+							<div class="user-info ps-3">
+								<p class="user-name mb-0">Tamim Hossen</p>
+								<p class="designattion mb-0">Admin</p>
+							</div>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-end">
+							<li>
+								<a class="dropdown-item" href="javascript:;"><i class="bx bx-user"></i><span>Profile</span></a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="javascript:;"><i class="bx bx-cog"></i><span>Change Password</span></a>
+							</li>
+							<li>
+								<div class="dropdown-divider mb-0"></div>
+							</li>
+							<li>
+								<a class="dropdown-item" href="javascript:;"><i class='bx bx-log-out-circle'></i><span>Logout</span></a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<div class="page-wrapper">
+			<div class="page-content">
+				@RenderBody()
+			</div>
+		</div>
+		<div class="overlay toggle-icon"></div>
+		<a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+		<footer class="page-footer">
+			<p class="mb-0">Copyright © @DateTime.Now.Year.ToString(). All right reserved.</p>
+		</footer>
+	</div>
+
+	<script src="~/assets/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+	<!--plugins-->
+	<script src="~/assets/js/jquery.min.js" asp-append-version="true"></script>
+	<script src="~/lib/kendo/kendo.all.min.js" asp-append-version="true"></script>
+	<script src="~/assets/plugins/simplebar/js/simplebar.min.js" asp-append-version="true"></script>
+	<script src="~/assets/plugins/metismenu/js/metisMenu.min.js" asp-append-version="true"></script>
+	<!--app JS-->
+	<script src="~/assets/js/app.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

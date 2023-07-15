@@ -1,0 +1,134 @@
+﻿@{
+    ViewData["Title"] = "Painter Information";
+}
+
+
+<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+    <div class="breadcrumb-title pe-3">Painters</div>
+    <div class="ps-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0 p-0">
+                <li class="breadcrumb-item active">
+                    <a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Painter Information</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="card radius-10">
+            <div class="card-body">
+                <div class="card-title d-flex align-items-center">
+                    <div>
+                        <i class="bx bxs-cloud-upload me-1 font-30 text-primary"></i>
+                    </div>
+                    <h5 class="mb-0">Upload Painter List From XL.</h5>
+                </div>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile04" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
+                    <button class="btn btn-outline-primary" type="button"><i class="bx bxs-cloud-upload mr-1"></i> Upload</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="card radius-10">
+            <div class="card-body">
+                <div id="grid"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts{
+    <script>
+
+        function GetUserName() {
+            var text = "";
+            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+            for (var i = 0; i < 10; i++)
+                text += possible.charAt(Math.floor(Math.random() * possible.length));
+            return text;
+        }
+
+        function makeNumber(max) {
+            var text = "";
+            var possible = "123456789";
+
+            for (var i = 0; i < 5; i++)
+                text += possible.charAt(Math.floor(Math.random() * max));
+            return text;
+        }
+
+        var dataList = [];
+        $(document).ready(function () {
+
+            for (var sl = 1; sl < 900000; sl++) {
+                let data = {
+                    Id: sl,
+                    Name: GetUserName(),
+                    Number: '01XXXXXXXXX',
+                    Address: 'Random Address, City, Bangladesh'
+                }
+
+                dataList.push(data);
+            }
+
+            $("#grid").kendoGrid({
+                dataSource: {
+                    data: dataList,
+                    batch: true,
+                    pageSize: 20,
+                    schema: {
+                        model: {
+                            id: "Id",
+                            fields: {
+                                Id: { editable: false, nullable: true, visible: false },
+                                Name: { type: "string", validation: { required: true } },
+                                Number: { type: "string", nullable: true },
+                                Address: { type: "string", validation: { required: true } }
+                            }
+                        }
+                    },
+                    sort: { field: "Id", dir: "desc" }
+                },
+                height: 650,
+                sortable: true,
+                filterable: true,
+                editable: "popup",
+                toolbar: [{ name: "create", text: "Add new painter" }],
+                pageable: {
+                    refresh: true,
+                    pageSizes: true,
+                    buttonCount: 5
+                },
+                columns: [{
+                    field: "Id",
+                    title: "Id",
+                    width: 120,
+                    filterable: false
+                }, {
+                    field: "Name",
+                    title: "Name",
+                    filterable: false
+                }, {
+                    field: "Number",
+                    title: "Number",
+                    filterable: true
+                }, {
+                    field: "Address",
+                    title: "Address",
+                },
+                { command: ["edit"], title: "&nbsp;", width: 100 }
+                ]
+            });
+        });
+    </script>
+}

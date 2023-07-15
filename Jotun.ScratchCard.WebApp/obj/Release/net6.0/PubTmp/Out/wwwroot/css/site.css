@@ -1,0 +1,55 @@
+.k-grid .k-toolbar.k-grid-toolbar {
+    background: #8833ff;
+}
+
+.k-grid .k-grid-header .k-header {
+    font-weight: bold;
+}
+
+.k-grid .k-pager-wrap.k-grid-pager.k-widget.k-floatwrap,
+.k-grid a.k-button.k-button-icontext.k-grid-add,
+.k-grid .k-grid-header .k-header,
+.k-window-titlebar {
+    background: #4d08ac;
+    color: #fff;
+}
+
+    .k-grid a.k-button.k-button-icontext.k-grid-add:hover {
+        background: #301258;
+    }
+
+a.k-button.k-button-icontext.k-primary.k-grid-update {
+    background: #0eb018;
+    border-color: #0df41b;
+}
+
+    a.k-button.k-button-icontext.k-primary.k-grid-update:hover {
+        background: #098311;
+        border-color: #0df41b;
+    }
+
+a.k-button.k-button-icontext.k-grid-cancel {
+    background: #424e5e;
+    color: #fff;
+}
+
+    a.k-button.k-button-icontext.k-grid-cancel:hover {
+        background: #043e8c;
+        color: #fff;
+    }
+
+.k-grid span.k-icon.k-i-filter {
+    color: #fff;
+}
+
+.k-grid .k-grid-filter:hover span.k-icon.k-i-filter, .k-grid-filter.k-state-border-down:hover {
+    color: #098311;
+}
+.k-grid .btn-sm {
+    padding: 3px 5px;
+    margin: 0px 2px 2px 0px;
+}
+
+    .k-grid .btn-sm .bx {
+        margin-right: 0px;
+    }

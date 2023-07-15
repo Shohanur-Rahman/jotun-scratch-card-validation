@@ -1,0 +1,12 @@
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\bin\Debug\net6.0\Jotun.ScratchCard.Entities.deps.json
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\bin\Debug\net6.0\Jotun.ScratchCard.Entities.dll
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\bin\Debug\net6.0\Jotun.ScratchCard.Entities.pdb
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\Jotun.ScratchCard.Entities.csproj.AssemblyReference.cache
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\Jotun.ScratchCard.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\Jotun.ScratchCard.Entities.AssemblyInfoInputs.cache
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\Jotun.ScratchCard.Entities.AssemblyInfo.cs
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\Jotun.ScratchCard.Entities.csproj.CoreCompileInputs.cache
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\Jotun.ScratchCard.Entities.dll
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\refint\Jotun.ScratchCard.Entities.dll
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\Jotun.ScratchCard.Entities.pdb
+E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.Entities\obj\Debug\net6.0\ref\Jotun.ScratchCard.Entities.dll

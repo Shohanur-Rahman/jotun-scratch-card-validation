@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Scratch Card Payment Verification System</title>
+    <title>@ViewData["Title"] - Scratch Card Payment Verification System</title>
+    <link href="~/assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true">
+    <link href="~/assets/css/bootstrap-extended.css" rel="stylesheet" asp-append-version="true">
+    <link href="~/lib/kendo/kendo.default-purple.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link href="~/assets/css/app.css" rel="stylesheet" asp-append-version="true">
+    <link href="~/assets/css/icons.css" rel="stylesheet" asp-append-version="true">
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/assets/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <!--plugins-->
+    <script src="~/assets/js/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/assets/plugins/simplebar/js/simplebar.min.js" asp-append-version="true"></script>
+    <script src="~/assets/plugins/metismenu/js/metisMenu.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/app.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

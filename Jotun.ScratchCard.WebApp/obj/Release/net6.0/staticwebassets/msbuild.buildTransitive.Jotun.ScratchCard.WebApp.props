@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Jotun.ScratchCard.WebApp.props" />
+</Project>

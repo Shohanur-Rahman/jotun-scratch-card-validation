@@ -1,0 +1,190 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+    <div class="breadcrumb-title pe-3">Dashboard</div>
+    <div class="ps-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0 p-0">
+                <li class="breadcrumb-item active">
+                    <a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Summary</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-lg-4">
+    <div class="col">
+        <div class="card radius-10 overflow-hidden bg-gradient-cosmic">
+            <div class="card-body">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <p class="mb-0 text-white">Today's SMS</p>
+                        <h5 class="mb-0 text-white">30</h5>
+                    </div>
+                    <div class="ms-auto text-white">
+                        <i class='bx bx-message-detail font-30'></i>
+                    </div>
+                </div>
+                <div class="progress bg-white-2 radius-10 mt-4" style="height:4.5px;">
+                    <div class="progress-bar bg-white" role="progressbar" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card radius-10 overflow-hidden bg-gradient-moonlit">
+            <div class="card-body">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <p class="mb-0 text-white">Scratch Code</p>
+                        <h5 class="mb-0 text-white">125</h5>
+                    </div>
+                    <div class="ms-auto text-white">
+                        <i class='bx bx-water font-30'></i>
+                    </div>
+                </div>
+                <div class="progress bg-white-2 radius-10 mt-4" style="height:4.5px;">
+                    <div class="progress-bar bg-white" role="progressbar" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card radius-10 overflow-hidden bg-gradient-Ohhappiness">
+            <div class="card-body">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <p class="mb-0 text-white">Valid Code</p>
+                        <h5 class="mb-0 text-white">123</h5>
+                    </div>
+                    <div class="ms-auto text-white">
+                        <i class='bx bx-check-shield font-30'></i>
+                    </div>
+                </div>
+                <div class="progress bg-white-2 radius-10 mt-4" style="height:4.5px;">
+                    <div class="progress-bar bg-white" role="progressbar" style="width: 90%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card radius-10 overflow-hidden bg-gradient-burning">
+            <div class="card-body">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <p class="mb-0 text-white">Invalid</p>
+                        <h5 class="mb-0 text-white">12</h5>
+                    </div>
+                    <div class="ms-auto text-white">
+                        <i class='bx bx-message-square-x font-30'></i>
+                    </div>
+                </div>
+                <div class="progress  bg-white-2 radius-10 mt-4" style="height:4.5px;">
+                    <div class="progress-bar bg-white" role="progressbar" style="width: 10%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <div class="card radius-10">
+            <div class="card-body">
+                <div class="d-flex align-items-center">
+                    <div class="flex-grow-1">
+                        <p class="mb-0">Payment Due</p>
+                        <h4 class="font-weight-bold">6,842 ৳</h4>
+                        <p class="text-success mb-0 font-13">Click the sync button for update.</p>
+                    </div>
+                    <button class="widgets-icons bg-gradient-cosmic text-white" type="button">
+                        <i class='bx bx-refresh'></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-9">
+        <div class="card radius-10">
+            <div class="card-body">
+                <div class="d-flex align-items-center">
+                    <div class="flex-grow-1">
+                        <div class="input-group mb-3">
+                            <label for="txtEnterCode" class="form-label w-100 d-block">Enter Code:</label>
+                            <input type="text" class="form-control" placeholder="6541251, 98512, 64125 ..." id="txtEnterCode">
+                            <button class="btn btn-primary" type="button" id="button-addon2"><i class="bx bx-badge-check mr-1"></i> Validate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="card radius-10">
+            <div class="card-body">
+                <div class="card-title d-flex align-items-center">
+                    <div>
+                        <i class="bx bx-check-shield me-1 font-22 text-primary"></i>
+                    </div>
+                    <h5 class="mb-0">Validation Summary</h5>
+                </div>
+                <div id="grid"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script>
+        var dataList = [];
+        $(document).ready(function () {
+
+            for (var sl = 1; sl < 10; sl++) {
+                let data = {
+                    Id: sl,
+                    Mobile: "017XXXXXXXX",
+                    Code: Math.floor((Math.random() * 9999) + 1),
+                    Price: Math.floor((Math.random() * 200) + 1),
+                    Dealer: Math.floor((Math.random() * 9999) + 1)
+                }
+
+                dataList.push(data);
+            }
+            $("#grid").kendoGrid({
+                dataSource: {
+                    data: dataList,
+                    pageSize: 20
+                },
+                height: 450,
+                sortable: true,
+                pageable: {
+                    refresh: true,
+                    pageSizes: true,
+                    buttonCount: 5
+                },
+                columns: [{
+                    field: "Id",
+                    title: "SL",
+                    width: 240
+                }, {
+                    field: "Mobile",
+                    title: "Mobile"
+                }, {
+                    field: "Code",
+                    title: "Code"
+                }, {
+                    field: "Price",
+                    title: "Value"
+                }, {
+                    field: "Dealer",
+                    title: "Dealer"
+                }]
+            });
+        });
+    </script>
+}

@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Jotun.ScratchCard.WebApp
+build_property.RootNamespace = Jotun.ScratchCard.WebApp
+build_property.ProjectDir = E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.WebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\DotNEt\Jotun.ScratchCard.App\Jotun.ScratchCard.WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Mastersheet/Views/Messages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFzdGVyc2hlZXRcVmlld3NcTWVzc2FnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Mastersheet/Views/Messages/Pending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFzdGVyc2hlZXRcVmlld3NcTWVzc2FnZXNcUGVuZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Mastersheet/Views/Reports/DateToDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFzdGVyc2hlZXRcVmlld3NcUmVwb3J0c1xEYXRlVG9EYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Mastersheet/Views/Reports/Dealer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFzdGVyc2hlZXRcVmlld3NcUmVwb3J0c1xEZWFsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Mastersheet/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFzdGVyc2hlZXRcVmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Mastersheet/Views/Reports/Painter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFzdGVyc2hlZXRcVmlld3NcUmVwb3J0c1xQYWludGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Mastersheet/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFzdGVyc2hlZXRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Mastersheet/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFzdGVyc2hlZXRcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Setup/Views/Cards/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2V0dXBcVmlld3NcQ2FyZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Setup/Views/Dealers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2V0dXBcVmlld3NcRGVhbGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Setup/Views/Painters/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2V0dXBcVmlld3NcUGFpbnRlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Setup/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2V0dXBcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Areas/Setup/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2V0dXBcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Error/PageNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcUGFnZU5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNEt/Jotun.ScratchCard.App/Jotun.ScratchCard.WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zbzgyvkdsz
