@@ -91,7 +91,7 @@
 </div>
 
 <div class="row">
-    <div class="col-3">
+    <div class="col-md-3 cl-sm-12 col-xs-12">
         <div class="card radius-10">
             <div class="card-body">
                 <div class="d-flex align-items-center">
@@ -107,7 +107,7 @@
             </div>
         </div>
     </div>
-    <div class="col-9">
+    <div class="col-md-9 cl-sm-12 col-xs-12">
         <div class="card radius-10">
             <div class="card-body">
                 <div class="d-flex align-items-center">
@@ -125,7 +125,7 @@
 
     <div class="col-12">
         <div class="card radius-10">
-            <div class="card-body">
+            <div class="card-body grid-container">
                 <div class="card-title d-flex align-items-center">
                     <div>
                         <i class="bx bx-check-shield me-1 font-22 text-primary"></i>
@@ -162,6 +162,7 @@
                 },
                 height: 450,
                 sortable: true,
+                responsive: true,
                 pageable: {
                     refresh: true,
                     pageSizes: true,
@@ -170,7 +171,7 @@
                 columns: [{
                     field: "Id",
                     title: "SL",
-                    width: 240
+                    width: 60
                 }, {
                     field: "Mobile",
                     title: "Mobile"

@@ -53,3 +53,33 @@ a.k-button.k-button-icontext.k-grid-cancel {
     .k-grid .btn-sm .bx {
         margin-right: 0px;
     }
+
+
+
+/* Adjust grid container for mobile */
+@media (max-width: 767px) {
+    .k-grid {
+        margin: 0;
+    }
+    .k-grid-header th {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .k-grid td {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .k-grid-pager {
+        text-align: center;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .grid-container{
+        overflow-x: auto;
+    }
+
+        .grid-container .k-grid {
+            width: 650px;
+        }
+}

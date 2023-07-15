@@ -39,7 +39,7 @@
 <div class="row">
     <div class="col-12">
         <div class="card radius-10">
-            <div class="card-body">
+            <div class="card-body grid-container">
                 <div id="grid"></div>
             </div>
         </div>
@@ -101,7 +101,8 @@
                                 IsUsed: { type: "boolean", validation: { required: true } }
                             }
                         }
-                    }
+                    },
+                    sort: { field: "Id", dir: "desc" }
                 },
                 height: 650,
                 sortable: true,
@@ -116,7 +117,7 @@
                 columns: [{
                     field: "Id",
                     title: "Id",
-                    width: 240,
+                    width: 120,
                     filterable: false
                 }, {
                     field: "Name",
